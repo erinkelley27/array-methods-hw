@@ -1,8 +1,6 @@
 // ARRAY METHODS HW
 
-// Welcome to Season 65 of the Bachelor! Our Bachelor, Kolton, needs your help remembering his beautiful contestants. You have received an array of objects representing data about the women competing for Kolton's heart. Follow the prompts to job Owen's memory using array methods.
-
-// You will be given an array of objects representing data about developers who have signed up to attend the coding meetup that you are organising for the first time.
+// Welcome to Season 65 of the Bachelor! Our Bachelor, Kolton, needs your help remembering his beautiful contestants. You have received an array of objects representing data about the women competing for Kolton's heart. Follow the prompts to jog Kolton's memory using array methods.
 
 var list1 = [
   { firstName: 'Katie', lastInitial: 'M.', city: 'Los Angeles', state: 'CA', age: 24, zodiacSign: 'Aries' },
@@ -95,9 +93,9 @@ firstAries(list1)
 
 // BONUS
 
-// Kolton wants to know the breakdown of each astrological sign. Return an object which includes the count of each sign represented by the pool of contestants.
+// Kolton wants to know the breakdown of each contestant's astrological sign. Return an object which includes the count of each sign represented by the pool of contestants.
 
-// { javascript: 2, python: 1, ruby: 3 }
+// { Aries: 3, Gemini: 1, Scorpio: 1 }
 
 function zodiacCount (list) {
   return list.reduce((accumulator, currentValue) => {
